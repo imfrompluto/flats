@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+text-decoration: none;
+}
+
+header{
+    /* background-color: aquamarine; */
+    font-size: 0;
+    background-color: #212121;
+}
+.logo{
+    /* background-color: blue; */
+    display: inline-block;
+    font-size: 0;
+}
+.logo img{
+width: 50px;
+height: 50px;
+filter: invert(100%);
+}
+
+.menu{
+    /* background-color: cadetblue; */
+    display: inline-block;
+    vertical-align: top;
+    font-size: 0;
+}
+.menu li{
+
+    display: inline-block;
+}
+.menu li a{
+    /* background-color: chartreuse; */
+    line-height: 50px;
+    display: inline-block;
+    padding: 0 20px;
+    font-size: 20px;
+    color: aliceblue;
+
+}
+
+.phoneSection{
+    /* background-color: darkgoldenrod; */
+    float: right;
+    font-size: 0;
+}
+
+.phoneSection a{
+    font-size: 0px;
+    display: inline-block;
+}
+
+.phoneSection p{
+    display: inline-block;
+    /* background-color: darkorchid; */
+    line-height: 50px;
+    vertical-align: top;
+    font-size: 20px;
+    color: white;
+    margin-right: 15px;
+}
+
+.messageMe{
+    background-color: #212121;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: white;
+    border-radius: 20px;
+    line-height: 40px;
+    padding: 0 20px;
+    border: white solid 1px;
+    vertical-align: top;
+    margin-top: 5px;
+    font-size: 20px !important;
+}
+
+.phoneSection img{
+    width: 20px;
+    height: 50px; 
+    filter: invert(100%);  
+    margin-right: 10px;
+}
+
+.slide{
+    background-image: url("kseniasflats.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    width: 100%;
+    white-space: normal;
+}
+
+.slide:nth-child(2){
+background-image: url("max'sflat.jpg");
+}
+
+.slide:nth-child(3){
+    background-image: url("max'sflat2.jpg");
+}
+
+.slider{
+    white-space: nowrap;
+    font-size: 0;
+    transition: .4s;
+}
+
+.slide h2{
+    font-size: 45px;
+    font-weight: normal;
+    color: white;
+    text-shadow: 0 0 10px black;
+    font-family: 'Open Sans', sans-serif;
+    margin: 25px 50px 50px;
+}
+
+.slide p{
+    font-size: 20px;
+    color: white;
+    background-color:rgba(0, 0, 0, .7);
+    font-family: 'Noto Sans JP', sans-serif;
+    width: 40%;
+    border-radius: 6px;
+    margin-left: 50px;
+    padding: 10px;
+}
+
+.slide a{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: #444444;
+    background-color: white;
+    line-height: 50px;
+    border-radius: 30px;
+    display: inline-block;
+    padding: 0 15px;
+    box-shadow: 0 5px 10px #00000088;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.sliderButtons img{
+    width: 25px;
+    height: 50px;    
+}
+
+.sliderButtons a{
+    
+    width: 50px;
+    font-family: 'Roboto', sans-serif;
+    color: #444444;
+    background-color: white;
+    border-radius: 30px;
+    display: inline-block;
+    padding: 0 15px;
+    box-shadow: 0 5px 10px #00000088;
+    margin: 5px;
+    text-align: center;
+}
+
+.sliderButtons{
+    text-align: center;
+}
+
+nav{
+    position: absolute;
+    background-color: #212122bb;
+    transform: translateY(-100%);
+    transition: .5s;
+    border-radius: 0 0 14px 14px;
+}
+
+.menu li nav a{
+    display: block;
+}
+
+.menu li:hover nav{
+    transform: translateY(0%);
+
+}
+
+.menubutton{
+    z-index: 999;
+    position: relative;
+    background-color: #212121;
+}
+
+.sliderContainer{
+    overflow: hidden;
+}
+
+.sectiontitle{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.flat img:first-child{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.flat{
+    /* box-shadow:0 10px 0px rgba(0, 0, 0, .7); */
+    width: calc(100% / 3 - 14px);
+    float: left;
+    text-align: center;
+    font-family: 'Noto Sans JP', sans-serif; 
+    margin: 7px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 50px;
+    background-color: white;
+}
+
+.flat img:nth-child(3){
+    width: 20px;
+}
+
+.flat img:nth-child(5){
+    width: 20px
+}
+
+body{background-color: #eee;
+}
+
+.comment{
+    background-color: #ffffff;
+    box-shadow:10px 10px 25px #444444;
+    width: calc(50% - 5px);
+    height: 200px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 15px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.comment:first-child{
+    float: left;
+}
+
+.comment:last-child{
+    float: right;
+}
+
+.comment img{
+    border-radius: 60px;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+
+.commentinfo{
+display: inline-block;
+vertical-align: middle;
+}
+
+.comment p{
+margin-bottom: 15px;
+}
+
+.pair{
+    width: 90%;
+    margin: auto;
+}

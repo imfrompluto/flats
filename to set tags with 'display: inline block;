@@ -1,0 +1,2 @@
+to set tags with 'display: inline block;' in the centre you will need to 
+give to their parents 'text-align: center'.
