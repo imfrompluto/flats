@@ -2,6 +2,11 @@
     margin: 0;
     padding: 0;
 }
+
+.flats{
+    overflow: hidden;
+}
+
 a{
 text-decoration: none;
 }
@@ -38,7 +43,6 @@ filter: invert(100%);
     display: inline-block;
     padding: 0 20px;
     font-size: 20px;
-    color: aliceblue;
 
 }
 
@@ -185,6 +189,7 @@ nav{
     z-index: 999;
     position: relative;
     background-color: #212121;
+    color: white;
 }
 
 .sliderContainer{
@@ -234,7 +239,7 @@ body{background-color: #eee;
     background-color: #ffffff;
     box-shadow:10px 10px 25px #444444;
     width: calc(50% - 5px);
-    height: 200px;
+    height: 150px;
     font-family: 'Montserrat', sans-serif;
     border-radius: 15px;
     padding: 15px;
@@ -265,9 +270,48 @@ vertical-align: middle;
 
 .comment p{
 margin-bottom: 15px;
+text-overflow: ellipsis;
+overflow: hidden;
+white-space: nowrap;
 }
 
 .pair{
     width: 90%;
+    padding-left: 5%;
     margin: auto;
+    position: absolute;
+    opacity: 0;
+    transition: .3s;
+    transform: scale(0.5);
+}
+
+.comments{
+    position: relative;
+    height: 200px;
+}
+
+.comments .sliderButtons{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.activePair{
+    opacity: 1;
+    transform: scale(1);
+}
+
+footer{
+    background-color: #212121;
+    overflow: hidden;
+}
+
+footer img{
+    width: 30px;
+    filter: invert(100%);
+}
+
+.rightpart{
+    background-color: royalblue;
+    float: right;
 }
