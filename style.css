@@ -312,6 +312,32 @@ footer img{
 }
 
 .rightpart{
-    background-color: royalblue;
     float: right;
+}
+
+.location{
+    display: inline-block;
+    color: seashell;
+}
+
+.message{
+    display: inline-block;
+    color: seashell;
+}
+
+.socials{
+    text-align: right;
+}
+
+.message p{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.message img{
+    vertical-align: middle;
+}
+
+.location img{
+    vertical-align: middle;
 }
